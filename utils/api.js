@@ -1,7 +1,14 @@
 const axios = require("axios")
 const api = {
     getUser(username){
-        return axios.get(`https://api.github.com/users/${username}`);
+        const queryUrl = `https://api.github.com/users/${username}`;
+        axios.get(queryUrl)
+        .then(response => {
+            const data = response.data;
+        })
+        .catch(err => {
+            if (err) throw Error;
+        })
     }
 };
 

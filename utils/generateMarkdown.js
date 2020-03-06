@@ -1,17 +1,19 @@
 function generateMarkdown (data){
     return `
-    # ${dat.title}
-    ![](https://img.shields.io/badge.License-${data.license}-important)
+    # ${dat.title} ![Version](https://img.shields.io/badge.License-${data.license}-important)
+
     # Description
+
     ${data.description}
     
     # Table of Contents
+
     *[Installation] (#installation)
     *[Tests] (#tests)
-    *[Useage] (#useage)
+    *[Usage] (#usage)
     *[Contributing] (#contributing)
     *[License] (#license)
-    *[Question] (#question)
+    *[Questions] (#questions)
 
     # Installation
     Run This Snippet to run Dependencies
@@ -26,11 +28,16 @@ function generateMarkdown (data){
     ${data.tests}
     \`\`\`
 
-    # Useage 
-    How touse this Program <br />
+    # Usage 
+
+    ${data.usage}
+
+    #Contributing
+
     ${data.contributing}
 
-    # Liscence <br />
+    # Liscence
+
     ${data.license}
 
     # Questions
