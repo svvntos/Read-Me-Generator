@@ -1,8 +1,9 @@
 function generateMarkdown(data) {
     return `
-    # ${dat.title} ![Version](https://img.shields.io/github/package-json/v/svvntos/Read-Me-Generator)
+    # ${data.title} 
+    ![](https://img.shields.io/badge/License-${data.license}-important)
 
-    ## Description
+    # Description
 
     ${data.description}
     
@@ -23,29 +24,29 @@ function generateMarkdown(data) {
     ${data.installation}
     \`\`\`
     
-    ## Tests
+    # Tests
     Run The Tests With This Snippet
     \`\`\`
     ${data.tests}
     \`\`\`
 
-    ## Usage 
+    # Usage 
 
     ${data.usage}
 
-    ##Contributing
+    # Contributing
 
     ${data.contributing}
 
-    ## Liscence
+    # Liscence
 
     ${data.license}
 
-    ## Questions
+    # Questions
 
     If you have any questions, You can reach me at my [Email]${data.email}
 
-    <img src="${data.profilePic}" alt="Github Avatar" style="border-radius:50px" width=100px"/>
+    <img src="${data.avatar_url}" alt="Github Avatar" style="border-radius:50px" width=100px"/>
 
     `;
 }
