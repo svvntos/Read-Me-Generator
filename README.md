@@ -2,7 +2,7 @@
       # Read-Me-Generator
       ![](https://img.shields.io/badge/License-MIT-important)
       # Description
-      Helps create good read me
+      Description
       # Table of Contents
       *[Installation] (#installation)
       *[Tests] (#tests)
@@ -13,12 +13,12 @@
      # Installation
      Run This Snippet to Run Dependencies 
       ```
-      npm i 
+      Installation 
       ```
      # Tests
      Run the Tests with This Snippet
      ```
-     npm test
+     
      ```
      # Usage
      How to Use This Program <br />
