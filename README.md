@@ -1,5 +1,5 @@
 
-      # Read-Me-Generator
+      # Read Me generator
       ![](https://img.shields.io/badge/License-MIT-important)
       # Description
       Description

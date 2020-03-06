@@ -1,7 +1,7 @@
-const inquirer = require("./node_modules/inquirer");
+const inquirer = require("inquirer");
 const fs = require("fs");
 const path = require("path")
-const util = require("./node_modules/inquirer/lib/utils");
+const util = require("util");
 const api = require("./utils/api");
 // const axios = require ("axios")
 const generateMarkdown = require("./utils/generateMarkdown");
