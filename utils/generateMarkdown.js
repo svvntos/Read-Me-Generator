@@ -1,4 +1,4 @@
-function generateMarkdown(data) {
+function generateMarkdown (data) {
     return `
     # ${data.title} 
     ![](https://img.shields.io/badge/License-${data.license}-important)

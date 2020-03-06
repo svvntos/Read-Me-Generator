@@ -1,5 +1,5 @@
 
-    # Title 
+    # Read.Me 
     ![](https://img.shields.io/badge/License-MIT-important)
 
     # Description
@@ -31,7 +31,7 @@
 
     # Usage 
 
-    Usage
+    To creat good read me
 
     # Contributing
 
