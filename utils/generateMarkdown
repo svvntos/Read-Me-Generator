@@ -1,0 +1,11 @@
+function generateMarkdown (data){
+    return `
+    # ${dat.title}
+    ![](https://img.shields.io/badge.License-${data.license}-important)
+    # Description
+    ${data.description}
+    
+    # Table of Contents
+    *[Installation] (#installation)
+    *[]`
+}
