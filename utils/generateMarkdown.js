@@ -1,50 +1,51 @@
-function generateMarkdown (data){
+function generateMarkdown(data) {
     return `
-    # ${dat.title} ![Version](https://img.shields.io/badge.License-${data.license}-important)
+    # ${dat.title} ![Version](https://img.shields.io/github/package-json/v/svvntos/Read-Me-Generator)
 
-    # Description
+    ## Description
 
     ${data.description}
     
     # Table of Contents
 
-    *[Installation] (#installation)
-    *[Tests] (#tests)
-    *[Usage] (#usage)
-    *[Contributing] (#contributing)
-    *[License] (#license)
-    *[Questions] (#questions)
+    *[Installation](#installation)
+    *[Tests](#tests)
+    *[Usage](#usage)
+    *[Contributing](#contributing)
+    *[License](#license)
+    *[Questions](#questions)
 
     # Installation
+
     Run This Snippet to run Dependencies
 
     \`\`\`
     ${data.installation}
     \`\`\`
     
-    # Tests
+    ## Tests
     Run The Tests With This Snippet
     \`\`\`
     ${data.tests}
     \`\`\`
 
-    # Usage 
+    ## Usage 
 
     ${data.usage}
 
-    #Contributing
+    ##Contributing
 
     ${data.contributing}
 
-    # Liscence
+    ## Liscence
 
     ${data.license}
 
-    # Questions
+    ## Questions
 
     If you have any questions, You can reach me at my [Email]${data.email}
 
-    <img src="${data.avatar_url}" alt="Github Avatar" style="border-radius:50px" width=100px"/>
+    <img src="${data.profilePic}" alt="Github Avatar" style="border-radius:50px" width=100px"/>
 
     `;
 }
