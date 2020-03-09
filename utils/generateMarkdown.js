@@ -6,12 +6,12 @@ function generateMarkdown (data){
 ${data.description}
 
 # Table of Contents
-[Installation] (#installation)
-[Tests] (#tests)
-[Usage] (#usage)
-[Contributing] (#contributing)
-[License] (#license)
-[Questions] (#questions)
+* [Installation](#installation)
+* [Tests](#tests)
+* [Usage](#usage)
+* [Contributing](#contributing)
+* [License](#license)
+* [Questions](#questions)
 
 # Installation
 Run This Snippet to Run Dependencies 
@@ -26,16 +26,20 @@ ${data.tests}
 \`\`\`
 
 # Usage
-How to Use This Program <br />
+<br />
 ${data.usage}
 
 # Contributing
-How Users can Contribute <br />
+<br />
+
 ${data.contributing}
+
 # Liscence <br />
 ${data.license}
+
 # Questions
-If You Have any Questions, You can Reach Me at My [Email]${data.email}
+If You Have any Questions, You can Reach Me at My email: Joesantos123@live.com  
+<hr/>
 <img src="${data.avatar_url}" alt="Github Avatar" style="border-radius:50px" width="100px"/>
 `;
 }
