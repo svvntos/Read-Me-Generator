@@ -71,8 +71,7 @@ function writeToFile(fileName, data) {
 
 function inti() {
     inquirer.prompt(questions).then(response => {
-        api
-.getUser(response.github)
+        api.getUser(response.github)
             .then(({data}) => {
                 writeToFile("README.MD", generateMarkdown({ ...response, ...data }));
             })
